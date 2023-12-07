@@ -1,4 +1,8 @@
 # milestone3
 
 
-###const correctedSearchTerm = ['exology', 'ecolgy', 'echology'].includes(value.toLowerCase()) ? 'ecology' : value;
+##const [correctedSearchTerm, setCorrectedSearchTerm] = useState('');
+
+const newCorrectedSearchTerm = ['exology', 'ecolgy', 'echology'].includes(value.toLowerCase()) ? 'ecology' : value;
+
+    setCorrectedSearchTerm(newCorrectedSearchTerm);
