@@ -1,4 +1,4 @@
-# milestone3
+# ETD Explorer with Chatbot
 
 
 ##const [correctedSearchTerm, setCorrectedSearchTerm] = useState('');
